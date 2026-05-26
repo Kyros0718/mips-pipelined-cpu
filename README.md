@@ -1,4 +1,4 @@
-# MIPS PIPELINED CPU
+# MIPS-PIPELINED-CPU
 
 [![Verilog](https://img.shields.io/badge/Verilog-2e3641?style=flat&logo=v&logoColor=76B900)](https://en.wikipedia.org/wiki/Verilog)
 [![Vivado](https://img.shields.io/badge/Xilinx%20Vivado-2e3641?style=flat&logo=X&logoColor=E01F27)](https://www.xilinx.com/products/design-tools/vivado.html)
