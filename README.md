@@ -29,12 +29,7 @@ A fully functional 5-stage pipelined MIPS CPU implemented in Verilog HDL and syn
 
 The CPU is organized as a classic 5-stage pipeline. Each stage is separated by a pipeline register that carries the instruction's data and control signals forward.
 
-```
-[ Instruction Fetch ] → [ Instruction Decode ] → [ Execute ] → [ Memory Access ] → [ Write Back ]
-         ↑                        |                                                       |
-         |                        └───────────────── forwarding ──────────────────────────┘
-         └──────────────────────── branch resolution (ID stage) ───────────────────────────
-```
+![pipeline diagram](./images/cpu_pipeline_diagram.png)
 
 <br>
 
